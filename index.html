@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My awesome music app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="background" src="./New folder (5)/img/binz.jpg" alt="">
+    <audio id="song" src="./New folder (5)/music/Big City Boi - Binz_ Touliver.mp3"></audio>
+    <div class="container">
+        <div class="box"></div>
+        <img id="thumbnail" src="./New folder (5)/img/binz.jpg" alt="">
+        <img src="./New folder (5)/New folder (4)/icons8-play-button-circled-48.png" alt="" id="play-pause" onclick="playPause()">
+        <img src="./New folder (5)/New folder (4)/icons8-end-30.png" alt="" id="next-song">
+        <img src="./New folder (5)/New folder (4)/icons8-rewind-button-round-32 (2).png" alt="" id="previous-song">
+        <div class="song-artist">Binz</div>
+        <div class="song-title">Big City Boi</div>
+        <input type="range" min="0" max="" value="0" id="progress-bar">
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
